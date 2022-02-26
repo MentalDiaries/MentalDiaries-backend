@@ -21,5 +21,6 @@ urlpatterns = [
     
     path('', Index.as_view(), name='index'),
     path('api/users/', include('apps.users.urls'), name='users'),
+    path('api/diary/', include('apps.diary.urls'), name='diary'),
     path('admin/', admin.site.urls),
 ]
