@@ -44,7 +44,7 @@ INSTALLED_APPS = [
     'rest_framework',
     'corsheaders',
 
-    'appspython-3.9.7.diary',
+    'apps.diary',
 ]
 
 MIDDLEWARE = [
