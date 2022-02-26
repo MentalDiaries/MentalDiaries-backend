@@ -1,0 +1,1 @@
+web: gunicorn MentalDiaries.wsgi --log-file -
